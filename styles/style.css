@@ -82,7 +82,7 @@ nav{
 .logo-container img{
     width:100px;
 height: 50px;
-object-fit: contain;
+object-fit:contain;
 }
 
 @media screen and (max-width:768px){
@@ -130,13 +130,13 @@ object-fit: contain;
 }
 
 .logo-container{
-    margin-block: 50px;
+    margin-block: 80px;
     gap:20px 30px;
 }
 
 .logo-container img{
-    height: 30px;
-    width: 70px;
+    height: 40px;
+    width: 80px;
 }
 }
 
