@@ -69,7 +69,23 @@ nav{
     object-fit: contain;
 }
 
-@media screen and (max-width:576px){
+.logo-container{
+    max-width: 1110px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:30px 50px;
+}
+
+.logo-container img{
+    width:100px;
+height: 50px;
+object-fit: contain;
+}
+
+@media screen and (max-width:768px){
 
     .mobile-navbar{
         width:100%;
@@ -111,6 +127,16 @@ nav{
 
 .right-header-banner img{
     width: 180px;
+}
+
+.logo-container{
+    margin-block: 50px;
+    gap:20px 30px;
+}
+
+.logo-container img{
+    height: 30px;
+    width: 70px;
 }
 }
 
