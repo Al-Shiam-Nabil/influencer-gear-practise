@@ -246,6 +246,7 @@ nav {
     display: flex;
     justify-content:space-between;
     align-items: center;
+    gap:25px;
     max-width: 1110px;
     margin: auto;
 }
@@ -273,4 +274,25 @@ nav {
 
 .featured-product-container button{
     border-radius:0;
+}
+
+@media screen and (max-width:992px){
+.featured-product-container{
+    flex-direction: column;
+}
+
+.right-featured-product{
+    text-align: center;
+}
+}
+
+@media screen and (max-width:576px){
+    .featured-product-container img{
+max-width: 100%;
+height: auto;
+    }
+
+    .featured-product-title{
+        font-size: 1.8rem;
+    }
 }
