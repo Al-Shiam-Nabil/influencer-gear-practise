@@ -206,6 +206,14 @@ nav {
   gap: 30px;
 }
 
+.product-container .see-more-link {
+  color: rgba(224, 44, 109, 0.87);
+  font-weight: bold;
+  display: block;
+  width: max-content;
+  margin: 30px auto;
+}
+
 @media screen and (max-width: 1050px) {
   .product-card-container {
     grid-template-columns: repeat(2, 300px);
@@ -230,4 +238,39 @@ nav {
   .product-image {
     height: auto;
   }
+}
+
+/*featured product*/
+
+.featured-product-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    max-width: 1110px;
+    margin: auto;
+}
+
+.right-featured-product > *{
+    margin-bottom: 10px;
+}
+
+.featured-product-container img{
+    height:270px;
+    width: 400px;
+    object-fit: contain;
+    border-radius: 7px;
+}
+
+ .featured-product-title{
+    font-size: 1.8rem;
+}
+
+.featured-product-description{
+    color: #6C6C6C;
+    max-width: 600px;
+    margin-bottom: 15px;
+}
+
+.featured-product-container button{
+    border-radius:0;
 }
